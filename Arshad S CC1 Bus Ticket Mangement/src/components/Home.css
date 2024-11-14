@@ -1,0 +1,29 @@
+.home-container {
+    text-align: center;
+    padding: 50px;
+    padding-top: 80px; /* Add top padding to avoid overlap with navbar */
+    background-color: #e0f7fa;
+    min-height: 100vh;
+  }
+  
+  
+  .home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  section {
+    margin: 20px;
+  }
+  
+  h1 {
+    font-size: 3em;
+    color: #00796b;
+  }
+  
+  h2 {
+    font-size: 2em;
+    color: #004d40;
+  }
+  
