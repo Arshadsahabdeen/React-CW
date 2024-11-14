@@ -1,0 +1,20 @@
+.seat-selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full height */
+    background-color: #ffebee; /* Light pink background */
+    color: #c2185b; /* Dark pink text */
+  }
+  
+  .seat-selection h1 {
+    margin-bottom: 20px;
+  }
+  
+  .seat-selection img {
+    width: 300px; /* Adjust width as needed */
+    height: auto;
+    margin: 20px 0; /* Spacing around the image */
+  }
+  

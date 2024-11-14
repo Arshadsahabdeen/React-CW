@@ -1,0 +1,33 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "password": "password123"
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "password": "securepass"
+      }
+    ],
+    "tickets": [
+      {
+        "id": 1,
+        "source": "City A",
+        "destination": "City B",
+        "date": "2024-11-15",
+        "userId": 1
+      },
+      {
+        "id": 2,
+        "source": "City C",
+        "destination": "City D",
+        "date": "2024-11-16",
+        "userId": 2
+      }
+    ]
+  }
+  

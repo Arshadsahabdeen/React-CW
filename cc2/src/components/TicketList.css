@@ -1,0 +1,29 @@
+.ticket-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full height */
+    background-color: #fce4ec; /* Light pink background */
+    color: #c2185b; /* Dark pink text */
+  }
+  
+  .ticket-list h1 {
+    margin-bottom: 20px;
+  }
+  
+  .ticket-list table {
+    border-collapse: collapse;
+    width: 80%; /* Table width */
+  }
+  
+  .ticket-list th, .ticket-list td {
+    border: 1px solid #c2185b; /* Table border color */
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .ticket-list th {
+    background-color: #f48fb1; /* Light pink for headers */
+  }
+  

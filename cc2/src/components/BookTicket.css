@@ -1,0 +1,26 @@
+.book-ticket {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full height */
+    background-color: #e8f5e9; /* Very light green background */
+    color: #1b5e20; /* Dark green text */
+  }
+  
+  .book-ticket h1 {
+    margin-bottom: 20px;
+  }
+  
+  .book-ticket img {
+    width: 300px; /* Adjust width as needed */
+    height: auto;
+    margin: 20px 0; /* Spacing around the image */
+  }
+  /* src/components/Login.css, Register.css, BookTicket.css */
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 0.5em;
+  }
+      

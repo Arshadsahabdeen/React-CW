@@ -1,0 +1,16 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full height */
+    background-color: #e0f7fa; /* Light blue background */
+    color: #00796b; /* Dark teal text */
+    text-align: center; /* Center text */
+  }
+  
+  .home img {
+    width: 300px; /* Adjust width as needed */
+    height: auto;
+    margin: 20px 0; /* Spacing around the image */
+  }

@@ -1,0 +1,20 @@
+.manage-buses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full height */
+    background-color: #f3e5f5; /* Light purple background */
+    color: #6a1b9a; /* Dark purple text */
+  }
+  
+  .manage-buses h1 {
+    margin-bottom: 20px;
+  }
+  
+  .manage-buses img {
+    width: 300px; /* Adjust width as needed */
+    height: auto;
+    margin: 20px 0; /* Spacing around the image */
+  }
+  

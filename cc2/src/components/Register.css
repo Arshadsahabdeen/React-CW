@@ -1,0 +1,46 @@
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full height */
+    background-color: #f1f8e9; /* Light green background */
+    color: #33691e; /* Dark green text */
+  }
+  
+  .register h1 {
+    margin-bottom: 20px;
+  }
+  
+  .register input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 250px;
+    border: 1px solid #33691e;
+    border-radius: 5px;
+  }
+  
+  .register button {
+    padding: 10px 15px;
+    background-color: #33691e; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .register button:hover {
+    background-color: #1b5e20; /* Darker green on hover */
+  }
+  /* src/components/Login.css, Register.css, BookTicket.css */
+.error {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 0.5em;
+}
+/* Register.css */
+.success {
+  color: green;
+  font-size: 0.9em;
+  margin-top: 0.5em;
+}
